@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>party details!!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+        html{
+            text-align:center;
+            background-color:black;
+        }
+        .title{
+            color:white;
+            font-family:"Luckiest Guy", cursive;
+            font-size:8vw;
+        }
+        .button{
+            font-size:6.5vw;
+            display:inline-block;
+            margin: 0 auto;
+            font-family: "luckiest guy", cursive;
+            background-color:white;
+            border: 0px;
+            border-radius:1vw;
+            padding:10px;
+
+            
+        }
+        .container{
+            width:100%;
+            text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="title">click the buttons to see the details</h1>
+    <div class="container">
+        <button class="button where" onclick="where()">where</button>
+        <button class="button when" onclick="when()">when</button>
+        <button class="button what" onclick="what()">what</button>
+        <button class="button who" onclick="who()">who</button>
+        <button class="button gifts" onclick="gifts()">gifts</button>
+      </div>
+      <script>
+        function where(){
+            alert("The party will be at my home. The address is 18 Jersey Avenue.");
+        }
+        function when(){
+            alert("The party will be hosted at 11am. It will end around 4pm, so about five hours. It will be on the 17th of March (Saint Patrick's Day), which is a Sunday.")
+        }
+        function what(){
+            alert("At the party, if the weather cooperates, we will be playing outside for a lot of the time. When we are done, we will enjoy a movie while we eat lunch. Contact me or my parents about allergies and if you have any concerns. There will also be more things to do (possibly board games or maybe go to the park idk)");
+        }
+        function who(){
+            alert("Lots of my friends are coming to the party. Most of them are from Woodrow though so there won't be a lot of people that don't know each other.");
+        }
+        function gifts(){
+            alert("As a gift to my party, you can get me robux, books, money, or whatever you want. However, bringing nothing always works so you don't have to bring a gift.");
+        }
+      </script>
+</body>
+</html>
